@@ -45,14 +45,14 @@ colorclass==2.2.2
     # via
     #   -c requirements.txt
     #   unbeheader
-coverage==7.6.9
+coverage[toml]==7.6.9
     # via pytest-cov
 docutils==0.21.2
     # via
     #   plantweb
     #   sphinx
     #   sphinx-rtd-theme
-flask==3.1.0
+flask==3.1.1
     # via
     #   -c requirements.txt
     #   flask-url-map-serializer
@@ -64,7 +64,7 @@ greenlet==3.1.1
     # via
     #   -c requirements.txt
     #   sqlalchemy
-h11==0.14.0
+h11==0.16.0
     # via uvicorn
 hatch-requirements-txt==0.4.1
     # via -r requirements.dev.in
@@ -95,6 +95,7 @@ jinja2==3.1.6
 markupsafe==3.0.2
     # via
     #   -c requirements.txt
+    #   flask
     #   jinja2
     #   werkzeug
 migra==3.0.1663481299
@@ -138,7 +139,7 @@ pytest==8.3.4
     #   pytest-snapshot
 pytest-cov==6.0.0
     # via -r requirements.dev.in
-pytest-localserver==0.9.0.post0
+pytest-localserver[smtp]==0.9.0.post0
     # via -r requirements.dev.in
 pytest-mock==3.14.0
     # via -r requirements.dev.in
@@ -160,7 +161,7 @@ redis==5.2.1
     # via
     #   -c requirements.txt
     #   pytest-redis
-requests==2.32.3
+requests==2.32.4
     # via
     #   -c requirements.txt
     #   plantweb
